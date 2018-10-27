@@ -9,7 +9,7 @@
 </p>
 <hr>
 
-
+test1
 sudo docker run -d --name v2ray -v /etc/v2ray:/etc/v2ray -p 8888:8888 v2ray/official  v2ray -config=/etc/v2ray/config.json
 
 docker run -i -t -P --name pvtest2 -p 30001:40001 v2ray/official:latest v2ray -config=/etc/v2ray/config.json
